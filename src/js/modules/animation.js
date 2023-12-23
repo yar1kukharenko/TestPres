@@ -17,7 +17,7 @@ export default function () {
   const stepsMicro = [
     { x: 0, y: 0, s: 1, z: -1 }, // Начальная позиция
     { x: 200, y: "500", s: 2, z: 1 }, // Позиция 1
-    { x: -700, y: 150, s: 1.5, z: 1 }, // Позиция 2
+    { x: -700, y: 150, s: 1.5, z: -1 }, // Позиция 2
   ];
 
   const belok = document.querySelector(".belok");
